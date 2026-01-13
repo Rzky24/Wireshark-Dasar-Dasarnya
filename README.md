@@ -61,13 +61,15 @@ Anda dapat menggunakan tombol "hiu" biru untuk memulai penyadapan jaringan (mena
 Menggabungkan File PCAP
 Wireshark dapat menggabungkan dua file pcap menjadi satu file tunggal. Anda dapat menggunakan jalur menu "File --> Merge" untuk menggabungkan file pcap yang sudah ada dengan file yang telah diproses. Saat Anda memilih file kedua, Wireshark akan menampilkan jumlah total paket dalam file yang dipilih. Setelah Anda mengklik "open", Wireshark akan menggabungkan file pcap yang ada dengan file yang dipilih dan membuat file pcap baru . Perhatikan bahwa Anda perlu menyimpan file pcap yang telah "digabungkan" sebelum mengerjakannya.
 
-Lihat GIF
+Lihat GIF<img width="1292" height="880" alt="image" src="https://github.com/user-attachments/assets/7f06e137-efa0-45ac-ba9d-eed937189ee3" />
+
  
 
 Lihat Detail File
 Mengetahui detail file sangat membantu. Terutama saat bekerja dengan beberapa file pcap , terkadang Anda perlu mengetahui dan mengingat detail file (hash file, waktu pengambilan, komentar file pengambilan, antarmuka, dan statistik) untuk mengidentifikasi file, mengklasifikasikan, dan memprioritaskannya. Anda dapat melihat detailnya dengan mengikuti " Statistik --> Properti File Pengambilan" atau dengan mengklik " ikon pcap yang terletak di kiri bawah" .
 
-Lihat GIF****
+Lihat GIF**** <img width="1323" height="910" alt="image" src="https://github.com/user-attachments/assets/90179112-96de-41a7-ab74-c1822624dcb5" />
+
 Jawablah pertanyaan-pertanyaan di bawah ini.
 Gunakan file "Exercise.pcapng" untuk menjawab pertanyaan.
 Bacalah "komentar file tangkapan" . Apa itu flag? TryHackMe_Wireshark_Demo
