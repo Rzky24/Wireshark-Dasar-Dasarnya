@@ -84,7 +84,6 @@ f446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb
 buka file exercise pcapng - lihat pojok kanan bawah capture property - detail - cari hash sha256- hasil akan muncul 
 
 Analisis Paket
-Analisis Paket
 Analisis paket juga dikenal sebagai analisis protokol, yang menyelidiki detail paket dengan mendekode protokol dan field yang tersedia. Wireshark mendukung daftar panjang protokol untuk analisis, dan Anda juga dapat menulis skrip analisis Anda sendiri. Anda dapat menemukan detail lebih lanjut tentang analisis di sini .
 
 Catatan: Bagian ini membahas bagaimana Wireshark menggunakan lapisan OSI untuk memecah paket dan bagaimana menggunakan lapisan-lapisan ini untuk analisis. Diharapkan Anda sudah memiliki pengetahuan dasar tentang model OSI dan cara kerjanya. 
@@ -242,10 +241,9 @@ ubuntu@ip-10-49-133-2:~/Desktop$
 Terdapat file ".txt" di dalam file tangkapan. Temukan file tersebut dan bacalah; siapakah nama alien tersebut? PACKETMASTER
 buka halaman wireshark - file- export object - http - text filter - klik .txt - pilih save -  rename menjadi note.txt - sv ke halaman desktop- save -kilik .txt di halaman desktop dan muncul hasilnya -  PACKETMASTER
 
-Lihat bagian informasi ahli. Berapa jumlah peringatannya?
-1636
+Lihat bagian informasi ahli. Berapa jumlah peringatannya? 1636
+lihat di eror information level icon halaman wireshark pojok kiri bawah - cari warna kuning - 1636
 
-Penyaringan Paket
 Penyaringan Paket
 Wireshark memiliki mesin filter yang canggih yang membantu analis mempersempit lalu lintas dan fokus pada peristiwa yang diminati. Wireshark memiliki dua jenis pendekatan pemfilteran: filter tangkap dan filter tampilan. Filter tangkap digunakan untuk  "menangkap" hanya paket yang valid untuk filter yang digunakan. Filter tampilan digunakan untuk  "melihat" paket yang valid untuk filter yang digunakan. Kita akan membahas perbedaan dan penggunaan lanjutan dari filter-filter ini di sesi berikutnya. Sekarang mari kita fokus pada penggunaan dasar filter tampilan, yang akan membantu analis terlebih dahulu.
 
@@ -279,18 +277,18 @@ Jawablah pertanyaan-pertanyaan di bawah ini.
 
 Gunakan file " Exercise.pcapng " untuk menjawab pertanyaan.
 Buka paket nomor 4. Klik kanan pada "Hypertext Transfer Protocol" dan terapkan sebagai filter.
-Sekarang, lihat panel filter. Apa kueri filternya?
-http
+Sekarang, lihat panel filter. Apa kueri filternya? http
+pergi ke paket no 4 - klik kanan di http-  apply as filter - selected - hasil nya muncul - di kolom warna hijau http
 
-Berapakah jumlah paket yang ditampilkan?
-1089
+Berapakah jumlah paket yang ditampilkan? 1089
+lihat di bagian pojok kanan paling bawah halaman wireshark Displayed 
 
 Buka paket nomor 33790, ikuti aliran HTTP, dan perhatikan responsnya dengan saksama.
-Berdasarkan respons server web, berapa total jumlah artisnya?
-3
+Berdasarkan respons server web, berapa total jumlah artisnya? 3
+pergi ke goto packet - ketik 33790 - klik kanan - follow - tcp stream - cari kolom find - ketik artist=3 ( cari sampai benar max kitik di kolom find ketik artist=1-10 misal , dan sampai benar habis/ tdk tersisa )
 
-Siapa nama artis kedua?
-Blad3
+Siapa nama artis kedua? Blad3
+cari kolom find - ketik artist=2  Blad3
 
 Kesimpulan
 Selamat!  Anda baru saja menyelesaikan ruangan "Wireshark: Dasar-Dasar".  Di ruangan ini, kita telah membahas Wireshark, apa itu, bagaimana cara kerjanya, dan bagaimana menggunakannya untuk menyelidiki tangkapan lalu lintas.
