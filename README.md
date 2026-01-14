@@ -285,10 +285,10 @@ lihat di bagian pojok kanan paling bawah halaman wireshark Displayed
 
 Buka paket nomor 33790, ikuti aliran HTTP, dan perhatikan responsnya dengan saksama.
 Berdasarkan respons server web, berapa total jumlah artisnya? 3
-pergi ke goto packet - ketik 33790 - klik kanan - follow - tcp stream - cari kolom find - ketik artist=3 ( cari sampai benar max kitik di kolom find ketik artist=1-10 misal , dan sampai benar habis/ tdk tersisa )
+pergi ke goto packet - ketik 33790 - klik kanan - follow - http stream - cari kolom find - ketik artist=3 ( cari sampai benar max kitik di kolom find ketik artist=1-10 misal , dan sampai benar habis/ tdk tersisa )
 
 Siapa nama artis kedua? Blad3
-cari kolom find - ketik artist=2  Blad3
+follow - http stream- cari kolom find - ketik artist=2 - lihat pas dikiri setelah ketik artist=2  - artist=2'>Blad3< 
 
 Kesimpulan
 Selamat!  Anda baru saja menyelesaikan ruangan "Wireshark: Dasar-Dasar".  Di ruangan ini, kita telah membahas Wireshark, apa itu, bagaimana cara kerjanya, dan bagaimana menggunakannya untuk menyelidiki tangkapan lalu lintas.
